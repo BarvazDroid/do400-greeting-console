@@ -21,12 +21,12 @@ pipeline{
             }
         }
 
-        // Add the Release stage here 4
+        // Add the Release stage here5
 	stage('Release') {
      	    steps {
                 sh '''
                 oc project ofer-geva1-ibm-com-greetings
-                oc start-build greeting-console  --follow --wait
+                oc start-build greeting-console --follow --wait
                 '''
             }
         }
