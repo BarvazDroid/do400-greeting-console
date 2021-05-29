@@ -21,7 +21,7 @@ pipeline{
             }
         }
 
-        // Add the Release stage here5
+        // Add the Release stage here6
 	stage('Release') {
      	    steps {
                 sh '''
